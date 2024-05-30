@@ -8,5 +8,12 @@ A model run looks like this:
 
 ![Untitled](https://github.com/niekkerssies/Range-model/assets/125357452/58f68008-731e-461e-80d7-394cbb75dc0a)
 
+(This gif is created by the code found in file 3). 
+
+Model results look like this: 
+
+![Untitled](https://github.com/niekkerssies/Range-model/assets/125357452/79c1d933-5417-48cd-9dad-2524cf6e2327)
+
+
 
 
