@@ -1,8 +1,10 @@
-This agent-based model simulates the influence of spatial constraints on network formation, and on several transmission processes along the network. 
+CONNECT-WHILE-IN-RANGE: NETWORK FORMATION FROM 
+
+This agent-based model simulates the influence of spatial constraints on network formation, and on several transmission processes simulated on that network. 
 N agents with communication range r randomly move through a coordinate grid gxg, dynamically add and remove links based on communication range, 
 and with some global probability P diffuse information along these links.
 
-The folder contains 2 python files: the important ones are one for the agent update rules, one for running the simulation, and one for creating plots and summary statistics from simulation results. Then there's a fourth file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intution. 
+The folder contains 3 python files: the important ones are one for the agent update rules (model), and one (plots) for creating plots and summary statistics from simulation results. Then there's a third file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intution. 
 
 A model run looks like this: 
 
@@ -24,7 +26,7 @@ Potion task performance plots:
 
 ![Untitled](https://github.com/niekkerssies/Range-model/assets/125357452/3aa87b21-db99-4d5e-a0d0-a90c31c1c010)
 
-Overall, the simulations show the role simple physical constraints (location, communication range, and movement) can play in the formation of networks. Also simulated are some common hypothetical diffusion processes on top of these networks, in order to illustrate the differences this may lead to in outcomes of collective processes such as cultural evolution and information sharing. 
+Overall, the simulations show the extensive role simple physical constraints (location, communication range, and movement) can play in the formation of networks. Also simulated are some common hypothetical diffusion processes on top of these networks, in order to illustrate the differences this may lead to in outcomes of collective processes such as cultural evolution and information sharing. 
 
 
 
