@@ -43,7 +43,7 @@ Model results look like this:
 
 Network structure plots:
 
-![Untitled](https://github.com/niekkerssies/Range-model/assets/125357452/79c1d933-5417-48cd-9dad-2524cf6e2327)
+
 
 Diffusion process plots:
 
