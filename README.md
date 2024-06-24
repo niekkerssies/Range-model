@@ -6,9 +6,22 @@ and with some global probability P diffuse information along these links.
 
 SCRIPTS
 
-The folder contains 3 python files: the important ones are one for the agent update rules (model), and one (plots) for creating plots and summary statistics from simulation results. Then there's a third file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intution. 
+The folder contains 3 python files: the important ones are one for the agent update rules that the simulation consists of ("1.model"), and one ("2.plots") for creating plots and summary statistics from simulation results. Then there's a third file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intution. 
 
 HOW TO RUN
+
+1. Install packages
+This code was written in Google Colab and links to the Colab files are given with each of the python files. In Colab, the packages used in this code come pre-installed and the "import [packagename] as [abbreviation]" commands included in the code files suffice. In locally run environments, enter in the terminal "pip install [packagename]". For example, for the networkx package, enter:
+   '''pip install networkx'''
+The names of the packages used are networkx, numpy, random, math, scipy, copy, matpotlib, and pandas.
+
+2. 
+
+3. File 1: "Model": define functions and run simulation.
+
+4. File 2: "
+   
+
 
 The code in "model" defines the functions that update the agents, run the simulations, and collect the output data. The files were written in Google Colab and downloaded as .py files.
 Packages used are networkx, numpy, random, math, and copy. (in Colab, "import *packagename* " suffices to use these; in local environments, one can use "pip install *packagename*" to install). 
