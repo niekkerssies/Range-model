@@ -12,8 +12,8 @@ HOW TO RUN
 
 1. Install packages
 This code was written in Google Colab and links to the Colab files are given with each of the python files. In Colab, the packages used in this code come pre-installed and the "import [packagename] as [abbreviation]" commands included in the code files suffice. In locally run environments, enter in the terminal "pip install [packagename]". For example, for the networkx package, enter:
-   '''pip install networkx'''
-The names of the packages used are networkx, numpy, random, math, scipy, copy, matpotlib, and pandas.
+   ```pip install networkx```
+The names of the packages used are networkx, numpy, math, scipy, copy, matpotlib, and pandas.
 
 2. 
 
