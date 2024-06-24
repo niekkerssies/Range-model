@@ -12,14 +12,22 @@ HOW TO RUN
 
 1. Install packages
 This code was written in Google Colab and links to the Colab files are given with each of the python files. In Colab, the packages used in this code come pre-installed and the "import [packagename] as [abbreviation]" commands included in the code files suffice. In locally run environments, enter in the terminal "pip install [packagename]". For example, for the networkx package, enter:
-   ```pip install networkx```
-The names of the packages used are networkx, numpy, math, scipy, copy, matpotlib, and pandas.
+   ```pip install networkx```.
+The names of the packages used are networkx, numpy, scipy, matpotlib, and pandas.
 
-2. 
+2. File 1: Model: define functions and run simulation.
+The first .py file in this repository "1. Model" contains the code required to define and run the simulations. Before running the code, the user only needs to set the argument values in the last line:  "run_simulation()" function call. This consists of setting the required arguments, and the optional arguments. The required arguments of run_simulation are: (R,r,N,g,T,Q). Choose an input parameter (r,N,g) to be varied. Input the corresponding value for Q: varying_parameter = list(range([r,N,g][Q])). So if Q = 0, r is varying; if Q = 1, N is varying. Then, for the varying parameter, put the maximum value. The simulation will run for each integer value of the parameter up to that maximum. (Note: because Python indexes start at 0, set the maximum to 1 higher than the desired included maximum). For all other values, put a constant value.
 
-3. File 1: "Model": define functions and run simulation.
+The diffusion processes are set by optional arguments in the run_simulation() function that are set to a default value if unspecified. Hence, the complete arguments taken by run_simulation() are (R, r, N, g, T, Q, P=0, N_init=0, compl=False, weight=0, CE=False, pa=0, pb=0, potion=False, pdiff=0). By default, the model simulates an SI diffusion process with infection probability P and N_init initially infected agents(see "1.Model" for explanation). To run a different diffusion process, set the corresponding boolean argument to True (compl for complex contagion, CE for cultural evolution, and potion for potion task; again see the file text for explanation) and set the relevant parameters; "weight" for complex contagion, pa and pb for cultural evolution, and pdiff for diffusion in the potion task. All of these variables specify a probability and therefore take a value between 0 and 1.
 
-4. File 2: "
+For example, for a simulation (of 100 rounds of 100 timesteps) of network structures under varying range, with complex contagion: 
+```run_simulation(100,11,10,10,100,0,compl=True,weight=0.1``` Here, 10 agents move in a 10x10 grid, and between simulations communication range varies [0,1,2....,9,10]. 
+
+
+"""
+
+4. File 2: Plots: define plotting and summary functions and create output visualizations.
+
    
 
 
