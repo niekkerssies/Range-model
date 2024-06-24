@@ -41,17 +41,19 @@ The "summary_and_plot" function unpacks the results from run_simulation in anoth
 
 Fixation times, which have a slightly different structures from the rest of the outputs, are summarized seperately by the "summarize_fixationtimes_diffusion" function.
 
-The summary_and_plot() function takes as input variables:
+The summary_and_plot() function takes two input variables:
 
 -the results dictionaries from run_simulation;
 
--"title", a string describing the plotted results;
+-"parameter_label", a string describing the input parameter variable that was used in the simulation run.
 
--"parameter_label", a string describing the input parameter variable that was used in the simulation run;
+To plot the results, set the argument inputs in the last line (the summary_and_plot function call) and run the code 
+(note: this assumes the code of file 1 has been executed, creating the "data" object). The arguments are results, parameter_label, CE=False, and potion=False. 
+For "results", simply put the 'data' object defined by the run_simulation call (the result of script 1). " For "parameter_label", put the name of the varying 
+input parameter chosen in the simulation run: "Range","N", or "g". If cultural evolution was simulated, set "CE" to True; if potion task was simulated, set "potion" to True. 
+The result is 7 network structure plots two diffusion process plots, and dataframes containing the summary statistics visualized in these plots. 
+Example function calls are included in the final lines.
 
--"param_values": this is a list of all the values that were taken by the varying input parameter.
-
-To plot the results, call the summary_and_plot function. The arguments are (results,title,parameter_label,param_values,print_summary=True). For results, simply put the 'data' object defined by the run_simulation call (the result of script 1). For title, you can create a description of the output plots; i usually put "Average network properties of communication and transmission graph under varying [varying parameter]." For parameter_label, put the name of the varying input parameter chosen in the simulation run: "Range","N","g",or "P". For param_values, create a list of which the entries correspond to the values taken by the varying parameter. For P, this is list(round(np.linspace(0,11,1),1)); for the other parameters, it's list(range([chosen maximum value])). Below are some example calls.
 """
 
 import networkx as nx
