@@ -6,7 +6,7 @@ and with some global probability P diffuse information along these links.
 
 SCRIPTS
 
-The folder contains 3 python files: the important ones are one for the agent update rules that the simulation consists of ("1.model"), and one ("2.plots") for creating plots and summary statistics from simulation results. Then there's a third file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intution. 
+The folder contains 3 python files: the important ones are one for the agent update rules that the simulation consists of ("1.model"), and one ("2.plots") for creating plots and summary statistics from simulation results. Then there's a third file which creates an animated gif of one simulation run of T timesteps at desired settings, which is useful for intuition. 
 
 HOW TO RUN
 
