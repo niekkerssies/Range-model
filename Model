@@ -12,7 +12,9 @@ Original file is located at
 
 Note: If downloading the raw file or running the files seperately does not work, the easiest methods to run this file are (1) open in colab using the above link or
 
-(2) copy and paste the full text of both files to a python environment, (install the packages), set the parameters of "run_simulation()" and "summary_and_plot", and run.
+(2) copy and paste the full text of this file to a python environment, (install the packages), set the parameters of "run_simulation()" and run. No visible output will be created;
+
+just the object "data". To create graph and summary outputs from this data object, see "2. Plots."
 
 The connect_while_in_range update rule has 3 steps: movement, information diffusion, and link updating.
 
