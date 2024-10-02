@@ -10,6 +10,10 @@ Original file is located at
 
 # Connect-while-in-range
 
+Note: If downloading the raw file or running the files seperately does not work, the easiest methods to run this file are (1) open in colab using the above link or
+
+(2) copy and paste the full text of both files to a python environment, (install the packages), set the parameters of "run_simulation()" and "summary_and_plot", and run.
+
 The connect_while_in_range update rule has 3 steps: movement, information diffusion, and link updating.
 
 To move, each agent chooses from a uniformly random distribution of its adjacent integer coordinates, including its current location. In other words, it selects a tile at random in its Moore neighborhood. To avoid agents sharing the same position, however, tiles currently occupied by other agents are excluded- as are positions out of bounds (below 0 or above g). If all tiles are occupied, the agent remains in place. (Note: this means that as N approaches gxg, the coordinate space becomes 'saturated,' reaching a state where each agent remains in place, each at a unique coordinate).
