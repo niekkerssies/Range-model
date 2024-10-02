@@ -43,7 +43,7 @@ Model results look like this:
 
 Network structure plots:
 
-
+![Varying range N 20](https://github.com/user-attachments/assets/1c007b23-5cb9-405e-b22d-4b60775687dd)
 
 Diffusion process plots:
 
