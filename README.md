@@ -53,7 +53,7 @@ Potion task performance plots:
 
 ![Untitled](https://github.com/niekkerssies/Range-model/assets/125357452/3aa87b21-db99-4d5e-a0d0-a90c31c1c010)
 
-Overall, the simulations show the extensive role simple physical constraints (location, communication range, and movement) can play in the formation of networks. Also simulated are some common hypothetical diffusion processes on top of these networks, in order to illustrate the differences this may lead to in outcomes of collective processes such as cultural evolution and information sharing. The most striking difference between the ranged model and the non-spatial model is in clustering: at lower to intermediate range, networks are much more clustered than in a comparable non-spatial model. This is reflected in the slower SI diffusion and faster complex contagion along networks at those settings. 
+Overall, the simulations show the extensive role simple physical constraints (location, communication range, and movement) can play in the formation of networks. In order to illustrate the differences this may lead to in outcomes of collective processes such as cultural evolution and information sharing,  some common models of diffusion processes are also simulated. The most striking difference between the ranged model and the non-spatial model is in clustering: at lower to intermediate range, networks are much more clustered than in a comparable non-spatial model. This is reflected in the slower SI diffusion and faster complex contagion along networks at those settings. 
 
 
 
