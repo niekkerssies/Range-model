@@ -8,7 +8,10 @@ Original file is located at
 
 # 3. Plotting results
 
-This code assumes the "data" object created as output by the code in the file "model."
+This code assumes the "data" object created as output by the code in the file "model." If downloading the raw file or running the files
+
+seperately does not work, the easiest methods to run this file are (1) open in colab using the above link (2) copy and paste the full text of both 
+files to a python environment, (install the packages), set the parameters of "run_simulation()" and "summary_and_plot", and run.
 
 The summary_and_plot function takes the output dictionaries created by calling run_simulation, and creates visualizations and summaries of that output.
 
