@@ -1,6 +1,6 @@
 CONNECT-WHILE-IN-RANGE: DYNAMIC NETWORKS FROM LOCATION, RANDOM MOVEMENT, AND RANGED COMMUNICATION
 
-This is the code used for the results reported in "Connect-while-in-range: modelling the impact of spatial constraints on dynamic communication network structures", publically available as an ArXiv preprint on https://arxiv.org/abs/2410.13527.
+This is the code used for the results reported in "Connect-while-in-range: modelling the impact of spatial constraints on dynamic network structures", publically available on https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000051.
 
 This agent-based model simulates the influence of spatial constraints on network formation, and on several transmission processes simulated on that network. 
 N agents with communication range r randomly move through a coordinate grid gxg, dynamically add and remove links based on communication range, 
