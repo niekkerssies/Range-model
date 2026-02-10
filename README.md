@@ -1,4 +1,4 @@
-CONNECT-WHILE-IN-RANGE: DYNAMIC NETWORKS FROM LOCATION, RANDOM MOVEMENT, AND RANGED COMMUNICATION
+**CONNECT-WHILE-IN-RANGE: DYNAMIC NETWORKS FROM LOCATION, RANDOM MOVEMENT, AND RANGED COMMUNICATION**
 
 This is the code used for the results reported in "Connect-while-in-range: modelling the impact of spatial constraints on dynamic network structures", publically available on https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000051.
 
